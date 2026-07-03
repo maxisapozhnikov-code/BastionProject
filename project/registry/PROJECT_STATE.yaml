@@ -1,0 +1,55 @@
+project:
+  name: BastionProject
+  repository: https://github.com/maxisapozhnikov-code/BastionProject
+  local_path: C:\Projects\BastionProject
+  methodology: Pack-based Development
+
+current:
+  pack: INFRA-001
+  milestone: M4
+  phase: Project Registry Alignment
+  status: In Progress
+  updated_at: 2026-07-03
+
+milestones:
+  - id: M1
+    status: Completed
+    summary: Project context and initial registry baseline added.
+    commit: 29bcd07
+
+  - id: M2
+    status: Completed
+    summary: Project context and agent standards updated.
+    commit: ae851ff
+
+  - id: M3
+    status: Completed
+    summary: Accidental root-level standards diff file removed.
+    commit: b6e7d39
+
+  - id: M4
+    status: In Progress
+    summary: Align project registry context and state tracking.
+    commit: null
+
+repository_state:
+  branch: main
+  remote: origin/main
+  working_tree: clean
+  last_verified: 2026-07-03
+
+documentation:
+  context_file: project/registry/PROJECT_CONTEXT.md
+  state_file: project/registry/PROJECT_STATE.yaml
+  standards:
+    - docs/standards/AGENT_PLAN.md
+    - docs/standards/AI_CONNECTION.md
+
+next_tasks:
+  - Complete Project Registry.
+  - Implement Bastion CLI.
+  - Implement Validation.
+  - Configure GitHub Actions.
+  - Complete Documentation Standards.
+  - Prepare Release Manifest.
+  - Release INFRA-001.

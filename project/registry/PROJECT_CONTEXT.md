@@ -1,6 +1,6 @@
 # Bastion Project Context
 
-> Purpose: This document reflects the current operational state of BastionProject and the new enterprise documentation structure.
+> Purpose: This document reflects the current operational state of BastionProject and the enterprise documentation structure.
 >
 > It is the primary entry point for understanding the repository state, governance posture, and documentation rollout.
 
@@ -15,8 +15,8 @@
 | Local Path | C:\Projects\BastionProject |
 | Methodology | Pack-based Development |
 | Current Pack | INFRA-001 |
-| Current Milestone | M1 |
-| Current Phase | Enterprise Documentation Setup |
+| Current Milestone | M4 |
+| Current Phase | Project Registry Alignment |
 | Status | In Progress |
 
 ---
@@ -30,17 +30,20 @@ This includes:
 - a formal project registry under project/registry/
 - a traceable requirements history baseline
 - clear state tracking for milestones and deliverables
+- clean repository structure without accidental artifacts
 
 ---
 
 # Repository Status
 
-Repository has been initialized and is actively being organized into an enterprise documentation model.
+Repository has been initialized and synchronized with GitHub.
 
 Current state:
 - core repository documents remain intact
-- new documentation domains have been introduced under docs/
-- the project registry has been established with documents, state, and requirements history
+- enterprise documentation areas have been introduced under docs/
+- the project registry has been established under project/registry/
+- accidental root-level diff artifact has been removed
+- registry state tracking is being formalized
 
 ---
 
@@ -49,12 +52,15 @@ Current state:
 Implemented:
 - root documentation and governance files
 - enterprise documentation areas from docs/01_strategy through docs/20_compliance
-- project registry entries for documents, state, and requirements history
+- project registry directories for documents and history
+- agent standards documents under docs/standards/
+- project structure snapshot
+- cleanup of accidental root-level standards file
 
 In progress:
-- refinement of each domain document
-- enrichment of the registry with additional references and ownership details
-- alignment of future packs with the new documentation structure
+- formalization of PROJECT_STATE.yaml
+- refinement of registry metadata
+- alignment of future packs with the documentation structure
 
 ---
 
@@ -80,73 +86,44 @@ Name: Infrastructure Pack 1.0
 
 Status: In Progress
 
+Current milestone: M4
 
+---
 
-\# Next Tasks
+# Completed Milestones
 
+| Milestone | Status | Result |
+|-----------|--------|--------|
+| M1 | Completed | Project context and initial registry baseline added. |
+| M2 | Completed | Project context and agent standards updated. |
+| M3 | Completed | Accidental root-level standards diff file removed. |
 
+---
 
-1\. Complete Project Registry.
+# Next Tasks
 
-2\. Implement Bastion CLI.
+1. Complete PROJECT_STATE.yaml.
+2. Complete Project Registry.
+3. Implement Bastion CLI.
+4. Implement Validation.
+5. Configure GitHub Actions.
+6. Complete Documentation Standards.
+7. Prepare Release Manifest.
+8. Release INFRA-001.
 
-3\. Implement Validation.
+---
 
-4\. Configure GitHub Actions.
+# References
 
-5\. Complete Documentation Standards.
+- ROADMAP.md
+- VISION.md
+- PHILOSOPHY.md
+- PROCESS_MAP.md
+- DECISIONS.md
+- docs/
+- meta/
+- project/
 
-6\. Prepare Release Manifest.
+---
 
-7\. Release INFRA-001.
-
-
-
-\---
-
-
-
-\# References
-
-
-
-ROADMAP.md
-
-
-
-VISION.md
-
-
-
-PHILOSOPHY.md
-
-
-
-PROCESS\_MAP.md
-
-
-
-DECISIONS.md
-
-
-
-docs/
-
-
-
-meta/
-
-
-
-project/
-
-
-
-\---
-
-
-
-Last Updated:
-
-2026-07-02
-
+Last Updated: 2026-07-03
