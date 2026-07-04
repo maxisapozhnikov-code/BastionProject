@@ -1,4 +1,4 @@
-project:
+﻿project:
   name: BastionProject
   repository: https://github.com/maxisapozhnikov-code/BastionProject
   local_path: C:\Projects\BastionProject
@@ -8,8 +8,8 @@ current:
   pack: INFRA-001
   milestone: M5
   phase: Project Registry Completion
-  status: In Progress
-  updated_at: 2026-07-03
+  status: Completed
+  updated_at: 2026-07-04
 
 milestones:
   - id: M1
@@ -33,25 +33,30 @@ milestones:
     commit: 5e6512d
 
   - id: M5
-    status: In Progress
-    summary: Complete project registry documents, history, and indexes.
-    commit: null
+    status: Completed
+    summary: Completed project registry documents, history, indexes, and document status tracking.
+    commit: 8fbd1a3
 
 repository_state:
   branch: main
   remote: origin/main
   working_tree: clean
-  last_verified: 2026-07-03
+  last_verified: 2026-07-04
 
 documentation:
   context_file: project/registry/PROJECT_CONTEXT.md
   state_file: project/registry/PROJECT_STATE.yaml
+  registry_documents:
+    - project/registry/documents/DOCUMENT_INDEX.md
+    - project/registry/documents/DOCUMENT_STATUS.md
+    - project/registry/history/MILESTONE_HISTORY.md
+    - project/registry/history/CHANGELOG.md
+    - project/registry/history/DECISION_LOG.md
   standards:
     - docs/standards/AGENT_PLAN.md
     - docs/standards/AI_CONNECTION.md
 
 next_tasks:
-  - Complete Project Registry.
   - Implement Bastion CLI.
   - Implement Validation.
   - Configure GitHub Actions.

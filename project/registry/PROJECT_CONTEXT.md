@@ -1,4 +1,4 @@
-# Bastion Project Context
+﻿# Bastion Project Context
 
 > Purpose: This document reflects the current operational state of BastionProject and the enterprise documentation structure.
 >
@@ -17,7 +17,7 @@
 | Current Pack | INFRA-001 |
 | Current Milestone | M5 |
 | Current Phase | Project Registry Completion |
-| Status | In Progress |
+| Status | Completed |
 
 ---
 
@@ -43,7 +43,8 @@ Current state:
 - enterprise documentation areas have been introduced under docs/
 - the project registry has been established under project/registry/
 - accidental root-level diff artifact has been removed
-- registry state tracking is being formalized
+- registry state tracking has been formalized
+- project registry indexes and history documents have been added
 
 ---
 
@@ -53,14 +54,22 @@ Implemented:
 - root documentation and governance files
 - enterprise documentation areas from docs/01_strategy through docs/20_compliance
 - project registry directories for documents and history
+- registry document index
+- registry document status tracking
+- milestone history
+- registry changelog
+- structured decision log
 - agent standards documents under docs/standards/
 - project structure snapshot
 - cleanup of accidental root-level standards file
 
-In progress:
-- formalization of PROJECT_STATE.yaml
-- refinement of registry metadata
-- alignment of future packs with the documentation structure
+Next:
+- Bastion CLI implementation
+- validation implementation
+- GitHub Actions configuration
+- documentation standards completion
+- release manifest preparation
+- INFRA-001 release
 
 ---
 
@@ -88,6 +97,8 @@ Status: In Progress
 
 Current milestone: M5
 
+M5 status: Completed
+
 ---
 
 # Completed Milestones
@@ -98,18 +109,32 @@ Current milestone: M5
 | M2 | Completed | Project context and agent standards updated. |
 | M3 | Completed | Accidental root-level standards diff file removed. |
 | M4 | Completed | Aligned project registry context and state tracking. |
+| M5 | Completed | Completed project registry documents, history, indexes, and document status tracking. |
+
+---
+
+# Registry Documents
+
+| Document | Path | Purpose |
+|----------|------|---------|
+| PROJECT_CONTEXT.md | project/registry/PROJECT_CONTEXT.md | Human-readable project context. |
+| PROJECT_STATE.yaml | project/registry/PROJECT_STATE.yaml | Machine-readable project state. |
+| DOCUMENT_INDEX.md | project/registry/documents/DOCUMENT_INDEX.md | Registry document map. |
+| DOCUMENT_STATUS.md | project/registry/documents/DOCUMENT_STATUS.md | Document lifecycle tracking. |
+| MILESTONE_HISTORY.md | project/registry/history/MILESTONE_HISTORY.md | Milestone history. |
+| CHANGELOG.md | project/registry/history/CHANGELOG.md | Registry change history. |
+| DECISION_LOG.md | project/registry/history/DECISION_LOG.md | Structured project decisions. |
 
 ---
 
 # Next Tasks
 
-1. Complete Project Registry.
-2. Implement Bastion CLI.
-3. Implement Validation.
-4. Configure GitHub Actions.
-5. Complete Documentation Standards.
-6. Prepare Release Manifest.
-7. Release INFRA-001.
+1. Implement Bastion CLI.
+2. Implement Validation.
+3. Configure GitHub Actions.
+4. Complete Documentation Standards.
+5. Prepare Release Manifest.
+6. Release INFRA-001.
 
 ---
 
@@ -126,4 +151,4 @@ Current milestone: M5
 
 ---
 
-Last Updated: 2026-07-03
+Last Updated: 2026-07-04

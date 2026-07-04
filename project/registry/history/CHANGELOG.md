@@ -4,19 +4,26 @@
 
 ---
 
-# 2026-07-03
+# 2026-07-04
 
 ## INFRA-001-M5
 
-Status: In Progress
+Status: Completed
+
+Commit: 8fbd1a3
 
 Changes:
-- Started Project Registry Completion milestone.
+- Completed Project Registry Completion milestone.
 - Added registry document index.
 - Added document lifecycle status tracking.
 - Added milestone history.
 - Added registry changelog.
 - Added structured decision log.
+- Updated project registry state to mark M5 as completed.
+
+---
+
+# 2026-07-03
 
 ## INFRA-001-M4
 
@@ -60,4 +67,4 @@ Changes:
 
 ---
 
-Last Updated: 2026-07-03
+Last Updated: 2026-07-04
