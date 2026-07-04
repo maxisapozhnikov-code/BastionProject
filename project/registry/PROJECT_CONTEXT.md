@@ -15,8 +15,8 @@
 | Local Path | C:\Projects\BastionProject |
 | Methodology | Pack-based Development |
 | Current Pack | INFRA-001 |
-| Current Milestone | M4 |
-| Current Phase | Project Registry Alignment |
+| Current Milestone | M5 |
+| Current Phase | Project Registry Completion |
 | Status | In Progress |
 
 ---
@@ -86,7 +86,7 @@ Name: Infrastructure Pack 1.0
 
 Status: In Progress
 
-Current milestone: M4
+Current milestone: M5
 
 ---
 
@@ -97,19 +97,19 @@ Current milestone: M4
 | M1 | Completed | Project context and initial registry baseline added. |
 | M2 | Completed | Project context and agent standards updated. |
 | M3 | Completed | Accidental root-level standards diff file removed. |
+| M4 | Completed | Aligned project registry context and state tracking. |
 
 ---
 
 # Next Tasks
 
-1. Complete PROJECT_STATE.yaml.
-2. Complete Project Registry.
-3. Implement Bastion CLI.
-4. Implement Validation.
-5. Configure GitHub Actions.
-6. Complete Documentation Standards.
-7. Prepare Release Manifest.
-8. Release INFRA-001.
+1. Complete Project Registry.
+2. Implement Bastion CLI.
+3. Implement Validation.
+4. Configure GitHub Actions.
+5. Complete Documentation Standards.
+6. Prepare Release Manifest.
+7. Release INFRA-001.
 
 ---
 

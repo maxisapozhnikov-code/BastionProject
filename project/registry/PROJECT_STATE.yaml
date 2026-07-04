@@ -6,8 +6,8 @@ project:
 
 current:
   pack: INFRA-001
-  milestone: M4
-  phase: Project Registry Alignment
+  milestone: M5
+  phase: Project Registry Completion
   status: In Progress
   updated_at: 2026-07-03
 
@@ -28,8 +28,13 @@ milestones:
     commit: b6e7d39
 
   - id: M4
+    status: Completed
+    summary: Aligned project registry context and state tracking.
+    commit: 5e6512d
+
+  - id: M5
     status: In Progress
-    summary: Align project registry context and state tracking.
+    summary: Complete project registry documents, history, and indexes.
     commit: null
 
 repository_state:
